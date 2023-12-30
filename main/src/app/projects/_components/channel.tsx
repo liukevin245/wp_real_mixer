@@ -14,7 +14,6 @@ import Typography from '@mui/material/Typography';
 import Gain from "./gain";
 import Slider from '@mui/material/Slider';
 
-import test from '../test.mp3'
 
 type ChannelProps = {
     sound: Howl, 
@@ -64,7 +63,6 @@ function CircularProgressWithLabel(
     );
   }
 
-const DefaultSound = new Howl({ src: [test], format: ['mp3'] });
 
 export default function Channel({sound, setSound, channel, solo, setSolo}: ChannelProps){
     const [mute, setMute] = useState<boolean>(false);
