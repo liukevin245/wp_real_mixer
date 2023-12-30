@@ -1,7 +1,6 @@
 'use client'
 
 import { Howl, Howler } from 'howler';
-import defaultMP3 from '../../Waynes.mp3'
 
 import { useState, useEffect } from 'react';
 import useSound from 'use-sound';
