@@ -9,7 +9,6 @@ export async function GET() {
 
     return NextResponse.json(
       {
-        password: users[0]?.hashedPassword || "",
       },
       { status: 200 },
     );
