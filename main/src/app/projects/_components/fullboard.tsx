@@ -32,6 +32,7 @@ export default function FullBoard(){
         const interval = setInterval(() => {setTime(Date.now());}, 100);
         const callback = (e: Event) => {
         setMoving(false);
+        console.log(e);
         };
 
         window.addEventListener('mouseup', callback);

@@ -1,7 +1,6 @@
 'use client'
 
 import { Howl } from "howler";
-import { useEffect } from "react";
 import Slider from '@mui/material/Slider';
 import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';

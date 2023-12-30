@@ -1,15 +1,7 @@
 import { redirect } from "next/navigation";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Separator } from "@/components/ui/separator";
-import { Textarea } from "@/components/ui/textarea";
 
-import ChannelList from "./_components/ChannelList"
-
-import DeleteProjectButton from "./_components/DeleteProjectButton";
-import TaskItem from "./_components/TaskItem";
-import { addTask, getProject } from "./actions";
+import { getProject } from "./actions";
 
 type Props = {
   params: { projectId: string };
@@ -23,7 +15,8 @@ export default async function ProjectsPage(props: Props) {
   }
 
   return (
-    <ChannelList />
+    <></>
+    // <ChannelList />
     // <main className="h-screen w-full overflow-hidden p-10">
     //   <div className="flex items-center justify-between">
     //     <div>
